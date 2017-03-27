@@ -69,7 +69,7 @@
 		    <outputDirectory>${basedir}</outputDirectory>
 		    <clearOutputDirectory>false</clearOutputDirectory>
 		    <excludes>
-			<exclude>tensorflow/*</exclude>
+			<exclude>tensorflow/**</exclude>
 		    </excludes>
                 </configuration>
                 <executions>
