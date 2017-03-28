@@ -180,14 +180,4 @@ _INPUT.fields_by_name['example_list'].has_options = True
 _INPUT.fields_by_name['example_list']._options = _descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('(\001'))
 _INPUT.fields_by_name['example_list_with_context'].has_options = True
 _INPUT.fields_by_name['example_list_with_context']._options = _descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('(\001'))
-try:
-  # THESE ELEMENTS WILL BE DEPRECATED.
-  # Please use the generated *_pb2_grpc.py files instead.
-  import grpc
-  from grpc.framework.common import cardinality
-  from grpc.framework.interfaces.face import utilities as face_utilities
-  from grpc.beta import implementations as beta_implementations
-  from grpc.beta import interfaces as beta_interfaces
-except ImportError:
-  pass
 # @@protoc_insertion_point(module_scope)

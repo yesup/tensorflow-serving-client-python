@@ -266,14 +266,4 @@ _SIGNATUREDEFMAP_SIGNATUREDEFENTRY.has_options = True
 _SIGNATUREDEFMAP_SIGNATUREDEFENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _GETMODELMETADATARESPONSE_METADATAENTRY.has_options = True
 _GETMODELMETADATARESPONSE_METADATAENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
-try:
-  # THESE ELEMENTS WILL BE DEPRECATED.
-  # Please use the generated *_pb2_grpc.py files instead.
-  import grpc
-  from grpc.framework.common import cardinality
-  from grpc.framework.interfaces.face import utilities as face_utilities
-  from grpc.beta import implementations as beta_implementations
-  from grpc.beta import interfaces as beta_interfaces
-except ImportError:
-  pass
 # @@protoc_insertion_point(module_scope)
